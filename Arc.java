@@ -24,8 +24,8 @@ public class Arc
     public Arc()
     {
         diameter = 68;
-        xPosition = 130;
-        yPosition = 75;
+        xPosition = 352;
+        yPosition = 150;
         startAngle = 30;
         extent = 120;
         color = Canvas.getColor("magenta");

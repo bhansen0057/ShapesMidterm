@@ -22,13 +22,15 @@ public class Rect
      */
     public Rect()
     {
-        xSize = 60;
-        ySize = 60;
-        xPosition = 310;
-        yPosition = 120;
-        color = Canvas.getColor("red");
+        xSize = 1000;
+        ySize = 15;
+        xPosition = 0;
+        yPosition = 540;
+        color = Canvas.getColor("black");
         isVisible = false;
     }
+    
+    
 
     /**
      * Make this rectangle visible. If it was already visible, do nothing.

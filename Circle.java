@@ -21,10 +21,10 @@ public class Circle
      */
     public Circle()
     {
-        diameter = 68;
-        xPosition = 230;
-        yPosition = 90;
-        color = Canvas.getColor("blue");
+        diameter = 45;
+        xPosition = 354;
+        yPosition = 20;
+        color = Canvas.getColor("grey");
     }    
     
     /**

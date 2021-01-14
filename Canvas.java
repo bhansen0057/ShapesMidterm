@@ -282,7 +282,7 @@ public class Canvas {
      * @param bgColor the new background color for the canvas.
      */
     public void setBackgroundColor(String bgColor) {
-        setBackgroundColor(getColor(bgColor));
+        setBackgroundColor(getColor("blue"));
     }
 
     /**
@@ -435,6 +435,7 @@ public class Canvas {
      */
     public interface DrawShape {
         public void draw(Graphics g);
+           
     }
 
     /**
@@ -447,6 +448,105 @@ public class Canvas {
         @Override
         public void paint(Graphics g) {
             redraw();
-        }
+       
+    
+            
+               
+    Triangle t = new Triangle();
+    t.makeVisible();
+    
+    Arc a = new Arc();
+    a.changeColor("red");
+    a.makeVisible();
+    
+    Circle c = new Circle();
+    c.changeColor("black");
+    c.makeVisible();
+    
+   
+    
+    Rect r = new Rect();
+    
+    r.makeVisible();
+    
+    Rect r1 = new Rect();
+    r1.changeSize(20, 20);
+    r1.changeColor("red");
+    r1.moveVertical(-450);
+    r1.moveHorizontal(200);
+    r1.makeVisible();
+    
+    Rect r2 = new Rect();
+    r2.changeSize(20, 20);
+    r2.changeColor("red");
+    r2.moveVertical(-350);
+    r2.moveHorizontal(400);
+    r2.makeVisible();
+    
+    Rect r3 = new Rect();
+    r3.changeSize(20, 20);
+    r3.changeColor("red");
+    r3.moveVertical(-550);
+    r3.moveHorizontal(350);
+    r3.makeVisible();
+    
+    Rect r4 = new Rect();
+    r4.changeSize(20, 20);
+    r4.changeColor("red");
+    r4.moveVertical(-250);
+    r4.moveHorizontal(200);
+    r4.makeVisible();
+    
+    Rect r5 = new Rect();
+    r5.changeSize(20, 20);
+    r5.changeColor("red");
+    r5.moveVertical(-50);
+    r5.moveHorizontal(80);
+    r5.makeVisible();
+    
+    Rect r6 = new Rect();
+    r6.changeSize(20, 20);
+    r6.changeColor("red");
+    r6.moveVertical(-100);
+    r6.moveHorizontal(10);
+    r6.makeVisible();
+    
+    Rect r7 = new Rect();
+    r7.changeSize(20, 20);
+    r7.changeColor("red");
+    r7.moveVertical(-100);
+    r7.moveHorizontal(600);
+    r7.makeVisible();
+    
+    Rect r8 = new Rect();
+    r8.changeColor("red");
+    r8.changeSize(20, 80);
+    r8.moveHorizontal(450);
+    r8.moveVertical(-10);
+    r8.makeVisible();
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    /**
+     * Create a new rectangle at default position with default color.
+     */
+    
+    
+    
+    
+        
+        
+
+      }
+        
+        
     }
-}
+  }  
+ 

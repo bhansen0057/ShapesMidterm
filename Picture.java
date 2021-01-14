@@ -16,7 +16,7 @@ public class Picture {
 
         // Set the title and background for the picture
         pic.setTitle("My Picture");
-        pic.setBackgroundColor("white");
+        pic.setBackgroundColor("blue");
 
         // Draw my picture
         Circle c = new Circle();

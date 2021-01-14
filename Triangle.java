@@ -22,11 +22,11 @@ public class Triangle
      */
     public Triangle()
     {
-        height = 60;
-        width = 70;
-        xPosition = 210;
-        yPosition = 140;
-        color = Canvas.getColor("green");
+        height = 400;
+        width = 120;
+        xPosition = 390;
+        yPosition = 150;
+        color = Canvas.getColor("black");
         isVisible = false;
     }
     
